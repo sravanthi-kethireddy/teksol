@@ -1,0 +1,119 @@
+/*
+ Theme Name:     vevey
+ Theme URI:      http://dhrusya.com
+ Description:    Divi Child Theme
+ Author:         Elegant Themes
+ Author URI:     http://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+
+@import url("../Divi/style.css");
+
+#logo{
+   max-height:96%;
+}
+.et_pb_blurb{
+  height: 100%;
+}
+
+
+#ds_tech .et-box.et-shadow {
+    width: 29%;
+    float: left;
+    margin: 2%;
+}
+
+.et_pb_tabs_controls li {
+    border: 1px solid #0c71c3;
+    border-radius: 5px 50px 0 0;
+    border-bottom: none;
+    border: none;
+    background: #0c71c3;
+    color: #fff;
+    top: 1px;
+}
+
+.et_pb_tabs_controls li a{
+  color: #fff;
+  padding:10px 40px 10px 30px;
+}
+.et_pb_tab_active a{
+   /*color:#fff !important;*/
+}
+
+
+.et_pb_all_tabs {
+    border-color: -moz-use-text-color #ddd #ddd;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    border:none;
+}
+
+.et_pb_tabs_0.et_pb_tabs{
+  border: none !important;
+}
+
+ul.et_pb_tabs_controls {
+    background-color: none !important;
+    top: 1px;
+    /*margin-left: 1px;*/
+}
+
+.et_pb_tabs_controls li.et_pb_tab_active {
+    background-color: #fff;
+}
+
+.et_pb_tabs_controls li:last-child:not(.et_pb_tab_active) {
+    /*border-right: 1px solid #0c71c3;*/
+}
+
+ul.et_pb_tabs_controls{
+  background: none;
+}
+
+ul.et_pb_tabs_controls::after{
+  border-top: none;
+}
+
+.home .et_pb_section_video_bg .mejs-video {
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+}
+
+
+.et_pb_module.et_pb_slider {
+    max-height: 80vh;
+}
+
+.et_pb_slide_description, .et_pb_slider_fullwidth_off .et_pb_slide_description{
+    padding:16% 8%;
+}
+
+#mojo-sp-right-wrap > button{
+   top:100px;
+   border-radius:0;
+}
+
+#mojo-sp-right-button span {
+    font-size: 24px;
+    left: 10px;
+    top: 13px;
+}
+
+
+.mojo-sp > .mojosp-widget-area {
+    box-sizing: border-box;
+    height: inherit;
+    overflow: hidden;
+    padding: 100px 25px;
+}
+
+
+#ssb-container.ssb-btns-right .ssb-social-popup {
+    left: auto;
+    margin: 0 0 0 -110px;
+    right: 0;
+    width:100%;
+}
